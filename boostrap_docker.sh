@@ -14,4 +14,4 @@ sudo echo "deb https://apt.dockerproject.org/repo ubuntu-$1 main" > /etc/apt/sou
 sudo apt-get update
 
 sudo apt-get install -y linux-image-extra-$(uname -r)
-sudo apt-get install docker-engine
+sudo apt-get install -y docker-engine
