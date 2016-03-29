@@ -1,4 +1,5 @@
 sudo -v
+sudo apt-get install -y python-psutil
 sudo pip install -U setuptools
 sudo pip install pathlib
 sudo pip install requests[security]  # SSL connection
