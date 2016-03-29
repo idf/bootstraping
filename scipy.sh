@@ -1,4 +1,5 @@
 sudo -v
 sudo easy_install numpy
-sudo apt-get build-dep python-scipy
+sudo apt-get -y build-dep python-scipy
+sudo pip install scipy 
 sudo pip install ipython[all]
