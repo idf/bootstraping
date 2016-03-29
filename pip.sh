@@ -1,5 +1,6 @@
 sudo -v
 sudo pip install -U setuptools
+sudo pip install pathlib
 sudo pip install requests[security]  # SSL connection
 sudo pip install cheat
 sudo pip install tldr
