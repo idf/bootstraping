@@ -1,5 +1,6 @@
 #!/bin/bash
 # credit: https://github.com/gzc
+# dependencies: boostrap_scipy.sh
 sudo -v
 
 DEB_FILE=cdh5-repository_1.0_all.deb
