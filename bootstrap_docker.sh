@@ -1,5 +1,5 @@
 #!/bin/bash
-codename=$(lsb_release --codename | cut -f2)
+codename=$(lsb_release --codename | cut -f2)  # ubuntu version code name
 docker_list="/etc/apt/sources.list.d/docker.list"
 
 sudo -v
