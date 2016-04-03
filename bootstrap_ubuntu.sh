@@ -8,3 +8,4 @@ sudo apt-get install -y emacs
 sudo apt-get install -y python-dev
 sudo apt-get install -y git-svn
 sudo apt-get install -y texinfo
+sudo apt-get install -y tree
