@@ -8,4 +8,4 @@ sudo pip install ipython[all]
 sudo apt-get install -y libfreetype6-dev libpng-dev
 sudo pip install -y matplotlib
 sudo apt-get install -y pandoc
-sudo pip install -y sklearn
+sudo pip install sklearn
