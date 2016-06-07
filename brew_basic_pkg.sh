@@ -86,7 +86,7 @@ brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install lua
-brew install lynx
+#brew install lynx
 brew install p7zip
 brew install pigz
 brew install pv
@@ -99,12 +99,10 @@ brew install webkit2png
 brew install zopfli
 brew install ruby
 brew install npm
+brew install emacs --with-gnutls
 
 # brew tap caskroom/versions  # alternate versions 
 brew install caskroom/cask/brew-cask
 brew cask install sublime-text3
-brew cask install bettertouchtool
-brew cask install vlc
-
 # Remove outdated versions from the cellar.
 brew cleanup
