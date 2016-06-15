@@ -101,8 +101,8 @@ brew install ruby
 brew install npm
 brew install emacs --with-gnutls
 
-# brew tap caskroom/versions  # alternate versions
 brew install caskroom/cask/brew-cask
+brew tap caskroom/versions  # alternate versions
 brew cask install sublime-text3
 brew cask install skim
 # Remove outdated versions from the cellar.
