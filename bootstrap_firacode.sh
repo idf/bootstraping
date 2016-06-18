@@ -1,4 +1,4 @@
-base=`basename $0`
+base=`dirname $0`
 source $base/checks.sh
 check_mac
 
