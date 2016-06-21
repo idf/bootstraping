@@ -12,6 +12,7 @@ brew install tree
 brew install tmux
 brew install ruby
 brew install npm
+brew install fpp  # facebook path picker
 brew install emacs --with-gnutls
 
 brew install caskroom/cask/brew-cask
