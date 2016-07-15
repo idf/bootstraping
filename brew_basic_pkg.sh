@@ -45,8 +45,8 @@ brew install narwhal
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+# brew install homebrew/dupes/screen
+# brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -94,7 +94,6 @@ brew install rename
 brew install rhino
 brew install speedtest_cli
 brew install ssh-copy-id
-brew install tree
 brew install webkit2png
 brew install zopfli
 brew install ruby
@@ -102,9 +101,4 @@ brew install npm
 brew install hh  # bash history
 brew install emacs --with-gnutls
 
-brew install caskroom/cask/brew-cask
-brew tap caskroom/versions  # alternate versions
-brew cask install sublime-text3
-brew cask install skim
-# Remove outdated versions from the cellar.
 brew cleanup
