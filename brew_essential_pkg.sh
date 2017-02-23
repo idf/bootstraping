@@ -20,5 +20,6 @@ brew tap caskroom/versions  # alternate versions
 brew cask install sublime-text3
 brew cask install smoothmouse
 brew cask install skim
+brew cask install clipmenu  # clipboard management
 
 brew cleanup
