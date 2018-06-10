@@ -4,7 +4,7 @@ sudo pip install -U setuptools
 sudo pip install pathlib
 sudo pip install requests[security]  # SSL connection
 sudo pip install cheat
-sudo pip install tldr
+sudo pip install tldr  # replace man
 sudo pip install tmuxp
 sudo pip install thefuck  # alias to "funk";
 sudo pip install percol
