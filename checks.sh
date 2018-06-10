@@ -4,3 +4,11 @@ function check_mac() {
     exit 1
   fi
 }
+
+function check_program() {
+  if hash brew 2>/dev/null; then
+    echo "exists"
+  else
+    echo "not exists"
+  fi
+}

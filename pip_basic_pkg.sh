@@ -1,5 +1,6 @@
 sudo -v
-sudo apt-get install -y python-psutil
+# sudo apt-get install -y python-psutil
+sudo pip install psutil
 sudo pip install -U setuptools
 sudo pip install pathlib
 sudo pip install requests[security]  # SSL connection

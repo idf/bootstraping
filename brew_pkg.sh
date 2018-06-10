@@ -14,27 +14,6 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-# Install GNU core utilities (those that come with OS X are outdated).
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-brew install coreutils
-sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
-
-# Install some other useful utilities like `sponge`.
-brew install moreutils
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
-brew install findutils
-# Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
-# Install Bash 4.
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
-# running `chsh`.
-brew install bash
-brew tap homebrew/versions
-brew install bash-completion2
-
-# Install `wget` with IRI support.
-brew install wget --with-iri
-
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
@@ -82,8 +61,6 @@ brew install xz
 # Install other useful binaries.
 brew install ack
 #brew install exiv2
-brew install git
-brew install git-lfs
 brew install imagemagick --with-webp
 brew install lua
 #brew install lynx
@@ -96,9 +73,5 @@ brew install speedtest_cli
 brew install ssh-copy-id
 brew install webkit2png
 brew install zopfli
-brew install ruby
-brew install npm
-brew install hh  # bash history
-brew install emacs --with-gnutls
 
 brew cleanup
