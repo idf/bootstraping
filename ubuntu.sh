@@ -13,3 +13,5 @@ sudo apt-get install -y git-svn
 sudo apt-get install -y texinfo
 sudo apt-get install -y tree
 sudo apt-get install -y hh
+sudo apt-get install -y unzip
+sudo apt-get install -y npm
