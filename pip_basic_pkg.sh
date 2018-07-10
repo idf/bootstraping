@@ -1,16 +1,16 @@
 sudo -v
 # sudo apt-get install -y python-psutil
-sudo pip install psutil
-sudo pip install -U setuptools
-sudo pip install pathlib
-sudo pip install requests[security]  # SSL connection
-sudo pip install cheat
-sudo pip install tldr  # replace man
-sudo pip install tmuxp
-sudo pip install thefuck  # alias to "funk";
-sudo pip install percol
-sudo pip install ujson  # ultrafast json
-sudo pip install --upgrade httpie  # CLI HTTP client for curl
+sudo -H pip install psutil
+sudo -H pip install -U setuptools
+sudo -H pip install pathlib
+sudo -H pip install requests[security]  # SSL connection
+sudo -H pip install cheat
+sudo -H pip install tldr  # replace man
+sudo -H pip install tmuxp
+sudo -H pip install thefuck  # alias to "funk";
+sudo -H pip install percol
+sudo -H pip install ujson  # ultrafast json
+sudo -H pip install --upgrade httpie  # CLI HTTP client for curl
 
-# Fix PIL, or comment out PIL inside requirements.txt, or use pillow instead
+# fix PIL, or comment out PIL inside requirements.txt, or use pillow instead
 # sudo pip install PIL --allow-external PIL --allow-unverified PIL;
