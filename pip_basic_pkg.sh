@@ -7,7 +7,6 @@ sudo -H pip install requests[security]  # SSL connection
 sudo -H pip install cheat
 sudo -H pip install tldr  # replace man
 sudo -H pip install tmuxp
-sudo -H pip install thefuck  # alias to "funk";
 sudo -H pip install percol
 sudo -H pip install ujson  # ultrafast json
 sudo -H pip install --upgrade httpie  # CLI HTTP client for curl
