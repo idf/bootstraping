@@ -16,7 +16,7 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 
 # Install Bash 4.
 brew install bash
@@ -27,26 +27,23 @@ chsh -s /usr/local/bin/bash
 
 
 # Better Bash Completion
-brew tap homebrew/versions
 brew install bash-completion2  # requires Bash 4.0+
 
 brew install git
 brew install git-lfs
-brew install wget --with-iri
+brew install wget
 brew install tree
 brew install tmux
 brew install ruby
 brew install npm
 brew install fpp  # facebook path picker
-brew install emacs --with-gnutls
+brew install emacs
 brew install hh  # bash history, trigger: c-r
 
 # Binaries
-brew install caskroom/cask/brew-cask
-brew tap caskroom/versions  # alternate versions
-brew cask install sublime-text3
-brew cask install smoothmouse
+brew tap caskroom/cask
+brew cask install sublime-text
 brew cask install skim
-brew cask install clipmenu  # clipboard management
+brew cask install spectacle
 
 brew cleanup
