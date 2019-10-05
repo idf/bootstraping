@@ -45,5 +45,6 @@ brew tap caskroom/cask
 brew cask install sublime-text
 brew cask install skim
 brew cask install spectacle
+brew cask install devdocs
 
 brew cleanup
