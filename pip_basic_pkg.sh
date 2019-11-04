@@ -4,7 +4,7 @@ sudo -H pip install psutil
 sudo -H pip install -U setuptools
 sudo -H pip install pathlib
 sudo -H pip install requests[security]  # SSL connection
-sudo -H pip install tldr  # replace man
+sudo -H pip install tldr  # replace man, cheat
 sudo -H pip install tmuxp
 sudo -H pip install percol
 sudo -H pip install ujson  # ultrafast json

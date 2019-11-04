@@ -3,6 +3,10 @@
   'ctrl-alt-r': 'refactor:rename'
   'cmd-l': 'outline-view:toggle'
   '': 'editor:select-line'
+  'ctrl-,': 'last-cursor-position:previous'
+  'ctrl-.': 'last-cursor-position:next'
+  'cmd-left': 'last-cursor-position:previous'
+  'cmd-right': 'last-cursor-position:next'
 
 '.platform-darwin atom-workspace':
   'ctrl-alt-s': 'file:open-alternate'
