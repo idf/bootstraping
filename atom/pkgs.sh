@@ -13,9 +13,10 @@ apm install highlight-line
 apm install ariake-dark-syntax  # syntax highlight with Fira
 apm install indent-guide-improved
 apm install goto-definition
-apm install ide-python
-pip install --user 'python-language-server[all]'
 apm install last-cursor-position
 apm install firacode
 apm install pp-markdown
 apm install atom-fuzzy-grep
+apm install file-icon
+apm install minimap
+apm install line-diff-details
