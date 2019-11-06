@@ -40,6 +40,7 @@ brew install fpp  # facebook path picker
 brew install emacs
 brew install hh  # bash history, trigger: c-r
 brew install sshrc
+brew install mosh
 
 # Binaries
 brew tap caskroom/cask

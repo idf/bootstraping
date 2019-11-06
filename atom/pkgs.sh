@@ -19,4 +19,4 @@ apm install pp-markdown
 apm install atom-fuzzy-grep
 apm install file-icon
 apm install minimap
-apm install line-diff-details
+apm install line-diff-details-plus
