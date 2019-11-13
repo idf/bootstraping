@@ -20,3 +20,4 @@ apm install atom-fuzzy-grep
 apm install file-icon
 apm install minimap
 apm install line-diff-details-plus
+apm install language-groovy  # for gradle
