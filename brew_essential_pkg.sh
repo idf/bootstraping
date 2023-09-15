@@ -41,6 +41,7 @@ brew install emacs
 brew install hh  # bash history, trigger: c-r
 brew install sshrc
 brew install mosh
+brew install broot
 
 # Binaries
 brew tap caskroom/cask
