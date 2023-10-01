@@ -38,11 +38,12 @@ brew install ruby
 brew install npm
 brew install fpp  # facebook path picker
 brew install emacs
-brew install hh  # bash history, trigger: c-r
+brew install hstr  # bash history, trigger: c-r
 brew install sshrc
 brew install mosh
 brew install broot
 brew install diff-so-fancy
+brew install ikuwow/ikuwow-sshrc/sshrc
 
 # Binaries
 brew install cask
