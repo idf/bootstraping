@@ -33,7 +33,7 @@ brew install git
 brew install git-lfs
 brew install wget
 brew install tree
-brew install tmux
+# brew install tmux  # install version 2.9s
 brew install ruby
 brew install npm
 brew install fpp  # facebook path picker
@@ -42,12 +42,20 @@ brew install hh  # bash history, trigger: c-r
 brew install sshrc
 brew install mosh
 brew install broot
+brew install diff-so-fancy
 
 # Binaries
-brew tap caskroom/cask
-brew cask install sublime-text
-brew cask install skim
-brew cask install spectacle
-brew cask install devdocs
+brew install cask
+brew tap homebrew/cask
+brew install sublime-text
+brew install skim
+brew install spectacle
+brew install devdoc
+
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
 
 brew cleanup
+
+# install specific tmux version
+bash tmux_29a.bash
