@@ -20,6 +20,8 @@ brew install gnu-sed
 
 # Install Bash 4.
 brew install bash
+chsh -s /bin/bash
+
 if ! grep -q /usr/local/bin/bash /etc/shells; then
     sudo echo /usr/local/bin/bash >> /etc/shells
 fi
@@ -43,6 +45,7 @@ brew install sshrc
 brew install mosh
 brew install broot
 brew install diff-so-fancy
+brew install thefuck
 brew install ikuwow/ikuwow-sshrc/sshrc
 
 # Binaries
@@ -52,6 +55,7 @@ brew install sublime-text
 brew install skim
 brew install spectacle
 brew install devdoc
+brew install jiggler
 
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code

@@ -73,4 +73,6 @@ brew install ssh-copy-id
 brew install webkit2png
 brew install zopfli
 
+brew install --cask google-cloud-sdk
+
 brew cleanup

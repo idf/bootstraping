@@ -26,3 +26,9 @@ brew install emacs
 Need to restart the computer.
 
 Expecting breaking changes in newer versions of tools
+
+
+## Apps
+Normally Privacy & Security -> Accessibility required.
+* Snap from App Store
+* ClipMenu 
