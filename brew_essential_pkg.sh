@@ -47,6 +47,7 @@ brew install broot
 brew install diff-so-fancy
 brew install thefuck
 brew install ikuwow/ikuwow-sshrc/sshrc
+brew install tldr
 
 # Binaries
 brew install cask
