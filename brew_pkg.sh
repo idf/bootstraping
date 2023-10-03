@@ -74,5 +74,8 @@ brew install webkit2png
 brew install zopfli
 
 brew install --cask google-cloud-sdk
+brew install --cask modern-csv
+brew install --cask wechat
+brew install --cask whatsapp
 
 brew cleanup
