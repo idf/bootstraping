@@ -48,6 +48,9 @@ brew install diff-so-fancy
 brew install thefuck
 brew install ikuwow/ikuwow-sshrc/sshrc
 brew install tldr
+brew install tmux
+brew install pyenv
+brew install ruff
 
 # Binaries
 brew install cask
@@ -60,8 +63,8 @@ brew install jiggler
 
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
+brew install --cask iterm2
+brew install --cask telegram
+brew install --cask rectangle
 
 brew cleanup
-
-# install specific tmux version
-bash tmux_29a.bash

@@ -77,5 +77,12 @@ brew install --cask google-cloud-sdk
 brew install --cask modern-csv
 brew install --cask wechat
 brew install --cask whatsapp
+brew install --cask topnotch
+brew install --cask bitwarden
+brew install --cask google-chrome
+
+# LaTeX
+brew install --cask mactex
+brew install --cask texshop
 
 brew cleanup

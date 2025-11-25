@@ -1,4 +1,5 @@
 #!/bin/sh
+# Not working after MacOS 15
 
 sudo -v
 
