@@ -60,11 +60,13 @@ brew install skim
 brew install spectacle
 brew install devdoc
 brew install jiggler
+brew install npm
 
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
 brew install --cask iterm2
 brew install --cask telegram
 brew install --cask rectangle
+brew install --cask clipy
 
 brew cleanup
