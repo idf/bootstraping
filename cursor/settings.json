@@ -1,0 +1,19 @@
+{
+  "remote.SSH.enableAgentForwarding": false,
+  "window.commandCenter": true,
+  "workbench.colorTheme": "Dracula Theme Soft",
+  "security.promptForRemoteFileProtocolHandling": false,
+  "remote.SSH.remotePlatform": {
+    "danilz.devpod-us-va": "linux"
+  },
+  "files.autoSave": "onFocusChange",
+  "workbench.preferredDarkColorTheme": "Dracula Theme Soft",
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "editor.fontLigatures": true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "remote.SSH.connectTimeout": 600,
+  "workbench.settings.applyToAllProfiles": [
+    
+  ]
+}

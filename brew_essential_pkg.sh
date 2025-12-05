@@ -61,6 +61,7 @@ brew install spectacle
 brew install devdoc
 brew install jiggler
 brew install npm
+brew install powerlevel10k  # powerlevel10k theme for zsh
 
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
